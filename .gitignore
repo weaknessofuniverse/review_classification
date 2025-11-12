@@ -1,0 +1,17 @@
+# Системные файлы macOS
+.DS_Store
+
+# Виртуальное окружение
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Jupyter и VSCode
+.ipynb_checkpoints/
+.vscode/
