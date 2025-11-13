@@ -68,14 +68,17 @@ REVIEW_CLASSIFICATION/
         │  Feature Engineering    │  →  TF–IDF or Transformer embeddings
         └────────────┬────────────┘
                      │
-        ┌─────┬──────▼──────┬──────┐
-        │LogReg│ Transformer│ Other │
-        └──┬────┴──────▲─────┴──────┘
-           │ Evaluation │
-           ▼             ▼
-        ┌─────────────────────────────┐
-        │     Metrics & Comparison    │
-        └─────────────────────────────┘
+        ┌─────┬──────▼──────┬─────┐
+        │LogReg│Transformer │Other│
+        └─────┴──────┬──────┴─────┘
+                     │
+        ┌────────────▼────────────┐
+        │        Evaluation       │
+        └────────────┬────────────┘
+                     │
+        ┌────────────▼────────────┐
+        │   Metrics & Comparison  │
+        └─────────────────────────┘
 ```
 
 ---
